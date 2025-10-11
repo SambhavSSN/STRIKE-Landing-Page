@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STRIKE</title>
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== 1. NAVBAR ==================== -->
+  <nav id="navbar" class="navbar mask-pattern">
+    <div class="navbar__container">
+      <div class="navbar__logo">
+        <img src="./assets/STRIKE.png" class="navbar__logo-img" alt="STRIKE-LOGO">
+      </div>
+  
+      <ul class="navbar__nav-links">
+        <li><a href="#hero" class="navbar__link">Home</a></li>
+        <li><a href="#why-strike" class="navbar__link">Why STRIKE?</a></li>
+        <li><a href="#courses" class="navbar__link">Courses</a></li>
+        <li><a href="#pricing" class="navbar__link">Pricing</a></li>
+        <li><a href="#reviews" class="navbar__link">Reviews</a></li>
+      </ul>   
+    
+      <div class="navbar__actions">
+        <button class="navbar__join">Join</button>
+        <button class="navbar__menu" id="menu-toggle"></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== 2. HERO SECTION ==================== -->
+  <section id="hero" class="hero">
+    <div class="hero__container">
+      <div class="hero__left">
+        <div class="hero__strike-tag">
+          <span>The wait is over. STRIKE is Here</span>
+          <div class="hero__beam-dot"></div>
+        </div>
+        <h1 class="hero__title">
+          The Next Era of Developers <br> 
+          Starts Here.
+        </h1>
+        <p class="hero__typewriter">Your launchpad to crack coding interviews & build groundbreaking AI projects</p>
+        
+        <div class="hero__btn-wrapper">
+          <!-- Get Started Button -->
+          <div class="hero__btn">
+            <button class="hero__spiderverse-btn">
+              GET STARTED
+              <div class="hero__glitch-layers">
+                <div class="hero__glitch-layer hero__glitch-layer--2">GET STARTED</div>
+                <div class="hero__glitch-layer hero__glitch-layer--1">GET STARTED</div>
+              </div>
+              <div class="hero__noise"></div>
+              <div class="hero__glitch-slice"></div>
+            </button>
+          </div>
+
+          <!-- Early Bird Counter -->
+          <div class="hero__early-bird-counter">
+            4,305 / 5,000 early-bird spots claimed
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="hero__conveyor hero__conveyor--left" aria-hidden="true">
+          <div class="hero__conveyor-track">
+            <div class="hero__conveyor-group">
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/gemini-logo.webp" alt="Gemini" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/huggingface-logo.png" alt="HuggingFace" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/javascript-logo.jpg" alt="JavaScript" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/jupyter-logo.png" alt="Jupyter" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/langchain-logo.webp" alt="LangChain" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/python-logo.jpg" alt="Python" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/meta-logo.png" alt="Meta" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/llama-logo.jpg" alt="Llama" class="hero__conveyor-item-img"></div>
+            </div>
+            <div class="hero__conveyor-group">
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/gemini-logo.webp" alt="Gemini" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/huggingface-logo.png" alt="HuggingFace" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/javascript-logo.jpg" alt="JavaScript" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/jupyter-logo.png" alt="Jupyter" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/langchain-logo.webp" alt="LangChain" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/python-logo.jpg" alt="Python" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/meta-logo.png" alt="Meta" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/llama-logo.jpg" alt="Llama" class="hero__conveyor-item-img"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__conveyor hero__conveyor--right" aria-hidden="true">
+          <div class="hero__conveyor-track hero__conveyor-track--reverse">
+            <div class="hero__conveyor-group">
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/aws-logo.png" alt="AWS" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/chatgpt-logo.png" alt="ChatGPT" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/claude-logo.png" alt="Claude" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/databricks-logo.png" alt="Databricks" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/docker-logo.png" alt="Docker" class="hero__conveyor-item-img"></div>
+            </div>
+            <div class="hero__conveyor-group">
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/aws-logo.png" alt="AWS" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/chatgpt-logo.png" alt="ChatGPT" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/claude-logo.png" alt="Claude" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/databricks-logo.png" alt="Databricks" class="hero__conveyor-item-img"></div>
+              <div class="hero__conveyor-item"><img src="./assets/tech-images/docker-logo.png" alt="Docker" class="hero__conveyor-item-img"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 3. STATS SECTION ==================== -->
+  <section id="stats" class="stats">
+    <img src="./assets/rohit_negi_faceT.png" class="stats__face" alt="rohit-negi-strike">
+    <div class="stats__container">
+      <div class="stats__box">
+        <div class="stats__number">4305</div>
+        <div class="stats__label">Students Enrolled</div>
+      </div>
+      <div class="stats__separator"></div>
+      <div class="stats__box">
+        <div class="stats__number">10+</div>
+        <div class="stats__label">AI Tools & Frameworks</div>
+      </div>
+      <div class="stats__separator"></div>
+      <div class="stats__box">
+        <div class="stats__number">100+</div>
+        <div class="stats__label">Hours of Content</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 4. COURSES SECTION ==================== -->
+  <section id="courses" class="courses">
+    <div class="courses__header">
+      <h2 class="courses__title">
+        <span class="courses__title-highlight">Strike</span> Now, 
+        <span class="courses__title-highlight">Lead</span> Tomorrow!
+      </h2>
+      <p class="courses__subtitle">
+        Battle tested roadmaps focused on outcomes and building enterprise grade projects
+      </p>
+    </div>
+
+    <div class="courses__grid">
+      <!-- Course Card 1: DSA -->
+      <article class="course-card">
+        <div class="course-card__inner">
+          <!-- Front Face -->
+          <div class="course-card__face course-card__face--front">
+            <div class="course-card__image">
+              <img src="./assets/course-images/dsa-img.png" alt="Data Structures & Algorithms Course" class="course-card__image-img">
+            </div>
+
+            <div class="course-card__bottom">
+              <div class="course-card__tag course-card__tag--beginner">Beginner</div>
+              <div class="course-card__live-tag">
+                <span>LIVE</span>
+                <div class="course-card__live-dot"></div>
+              </div>
+
+              <h3 class="course-card__name">Data Structures & Algorithms</h3>
+
+              <div class="course-card__bottom-row">
+                <div class="course-card__profile-stack">
+                  <img src="./assets/course-images/rohit-negi-profile-pic.jpg" class="course-card__profile-img" alt="Rohit Negi">
+                  <img src="./assets/course-images/aditya-tandon-profile-pic.jpg" class="course-card__profile-img" alt="Aditya Tandon">
+                </div>
+                <div class="course-card__discount">
+                  <div class="course-card__discount-small">Limited time discount</div>
+                  <div class="course-card__discount-big">50% off</div>
+                </div>
+              </div>
+
+              <hr class="course-card__divider">
+
+              <div class="course-card__final-row">
+                <div class="course-card__enrolled">
+                  <span class="course-card__people-icon">
+                    <img src="./assets/course-images/diversity.png" alt="Enrolled Students">
+                  </span> 2k Enrolled
+                </div>
+                <button class="course-card__view-btn">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Back Face -->
+          <div class="course-card__face course-card__face--back" aria-hidden="true">
+            <div class="course-card__back-content">
+              <ul class="course-card__features-list">
+                <li class="course-card__features-item">
+                  <span class="course-card__dot-icon">•</span> 500+ Handpicked Problems
+                </li>
+                <li class="course-card__features-item">
+                  <span class="course-card__dot-icon">•</span> Mock Interview Sessions
+                </li>
+                <li class="course-card__features-item">
+                  <span class="course-card__dot-icon">•</span> Placement Assistance
+                </li>
+                <li class="course-card__features-item">
+                  <span class="course-card__dot-icon">•</span> Certificate of Completion
+                </li>
+              </ul>
+
+              <hr class="course-card__divider">
+
+              <div class="course-card__final-row">
+                <div class="course-card__enrolled">
+                  <span class="course-card__people-icon">
+                    <img src="./assets/course-images/diversity.png" alt="Enrolled Students">
+                  </span> 2k Enrolled
+                </div>
+                <button class="course-card__view-btn">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Course Card 2: Generative AI -->
+      <article class="course-card">
+        <div class="course-card__inner">
+          <!-- Front Face -->
+          <div class="course-card__face course-card__face--front">
+            <div class="course-card__image">
+              <img src="./assets/course-images/gen-ai-img.jpg" alt="Generative AI Course" class="course-card__image-img">
+            </div>
+
+            <div class="course-card__bottom">
+              <div class="course-card__tag course-card__tag--intermediate">Intermediate</div>
+              <div class="course-card__live-tag">
+                <span>LIVE</span>
+                <div class="course-card__live-dot"></div>
+              </div>
+
+              <h3 class="course-card__name">Generative AI</h3>
+
+              <div class="course-card__bottom-row">
+                <div class="course-card__profile-stack">
+                  <img src="./assets/course-images/rohit-negi-profile-pic.jpg" class="course-card__profile-img" alt="Rohit Negi">
+                  <img src="./assets/course-images/aditya-tandon-profile-pic.jpg" class="course-card__profile-img" alt="Aditya Tandon">
+                </div>
+                <div class="course-card__discount">
+                  <div class="course-card__discount-small">Limited time discount</div>
+                  <div class="course-card__discount-big">50% off</div>
+                </div>
+              </div>
+
+              <hr class="course-card__divider">
+
+              <div class="course-card__final-row">
+                <div class="course-card__enrolled">
+                  <span class="course-card__people-icon">
+                    <img src="./assets/course-images/diversity.png" alt="Enrolled Students">
+                  </span> 2k Enrolled
+                </div>
+                <button class="course-card__view-btn">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Back Face -->
+          <div class="course-card__face course-card__face--back" aria-hidden="true">
+            <div class="course-card__back-content">
+              <ul class="course-card__features-list">
+                <li class="course-card__features-item">
+                  <span class="course-card__dot-icon">•</span> Battle tested roadmap
+                </li>
+                <li class="course-card__features-item">
+                  <span class="course-card__dot-icon">•</span> Enterprise grade projects
+                </li>
+                <li class="course-card__features-item">
+                  <span class="course-card__dot-icon">•</span> Placement assistance
+                </li>
+                <li class="course-card__features-item">
+                  <span class="course-card__dot-icon">•</span> Certificate on Completion
+                </li>
+              </ul>
+
+              <hr class="course-card__divider">
+
+              <div class="course-card__final-row">
+                <div class="course-card__enrolled">
+                  <span class="course-card__people-icon">
+                    <img src="./assets/course-images/diversity.png" alt="Enrolled Students">
+                  </span> 2k Enrolled
+                </div>
+                <button class="course-card__view-btn">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  
+  <!-- ==================== 5. WHY STRIKE SECTION ==================== -->
+  <section id="why-strike" class="why-strike">
+    <div class="why-strike__header">
+      <h2 class="why-strike__title">
+        Unlock Your Potential <span class="why-strike__title-highlight">with Expert Guidance</span>
+      </h2>
+      <p class="why-strike__subtitle">
+        Fuel your journey to industry readiness with tailored resources and mentorship that strike at the heart of your career goals.
+      </p>
+    </div>
+
+    <div class="why-strike__grid">
+      <!-- Feature Card 1 -->
+      <div class="feature-card feature-card--orange">
+        <svg class="feature-card__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <defs>
+            <linearGradient id="icon-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#FF8A50"/>
+              <stop offset="100%" stop-color="#FF5722"/>
+            </linearGradient>
+          </defs>
+          <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="url(#icon-orange)" stroke="url(#icon-orange)"></path>
+          <circle cx="8.5" cy="7" r="4" fill="url(#icon-orange)" stroke="url(#icon-orange)"></circle>
+          <polyline points="17 11 19 13 23 9" fill="none" stroke="url(#icon-orange)"></polyline>
+        </svg>
+        <h3 class="feature-card__title">Personalized Mentorship to Guide Your Career Path</h3>
+      </div>
+
+      <!-- Feature Card 2 -->
+      <div class="feature-card feature-card--amber">
+        <svg class="feature-card__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <defs>
+            <linearGradient id="icon-amber" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#FFC107"/>
+              <stop offset="100%" stop-color="#FF9800"/>
+            </linearGradient>
+          </defs>
+          <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" fill="url(#icon-amber)" stroke="url(#icon-amber)"></path>
+          <line x1="12" y1="11" x2="12" y2="17" stroke="url(#icon-amber)"></line>
+          <line x1="9" y1="14" x2="15" y2="14" stroke="url(#icon-amber)"></line>
+        </svg>
+        <h3 class="feature-card__title">Career Resources & Industry Insights</h3>
+      </div>
+
+      <!-- Feature Card 3 -->
+      <div class="feature-card feature-card--red">
+        <svg class="feature-card__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <defs>
+            <linearGradient id="icon-red" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#FF5252"/>
+              <stop offset="100%" stop-color="#DD0303"/>
+            </linearGradient>
+          </defs>
+          <polyline points="16 18 22 12 16 6" fill="none" stroke="url(#icon-red)"></polyline>
+          <polyline points="8 6 2 12 8 18" fill="none" stroke="url(#icon-red)"></polyline>
+        </svg>
+        <h3 class="feature-card__title">Hands-On Learning and Skill Enhancement</h3>
+      </div>
+
+      <!-- Feature Card 4 -->
+      <div class="feature-card feature-card--yellow">
+        <svg class="feature-card__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <defs>
+            <linearGradient id="icon-yellow" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#FFF176"/>
+              <stop offset="100%" stop-color="#FFEB3B"/>
+            </linearGradient>
+          </defs>
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" fill="url(#icon-yellow)" stroke="url(#icon-yellow)"></path>
+        </svg>
+        <h3 class="feature-card__title">Connect with a Strong Global Alumni Network</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 6. INSTRUCTORS SECTION ==================== -->
+  <section id="instructors" class="instructors">
+    <h2 class="instructors__header">
+      Meet Your <span class="instructors__header-highlight">Instructors</span>
+    </h2>
+
+    <div class="instructors__container">
+      <div class="instructors__slider">
+        <!-- Instructor 1 -->
+        <div class="instructors__card" id="rohit">
+          <div class="instructors__left">
+            <div class="instructors__photo-wrapper">
+              <img src="./assets/course-images/rohit-negi-profile-pic.jpg" alt="Rohit Negi" class="instructors__photo">
+            </div>
+          </div>
+          <div class="instructors__right">
+            <h3 class="instructors__name">Rohit Negi</h3>
+            <p class="instructors__tags">Founder & Lead Instructor | Ex-Uber</p>
+            <div class="instructors__desc-container">
+              <div class="instructors__desc-box">
+                <p class="instructors__desc-text">Heartfelt Problem Solver, Instructor and Visionary Leader. Got highest placement in India of 2 Cr +. Post Graduate from IIT G GATE-CSE'20 AIT - 202</p>
+              </div>
+            </div>
+            <ul class="instructors__social-icons">
+              <li class="instructors__social-item">
+                <a href="#" class="instructors__social-link">
+                  <svg class="instructors__social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path fill="#74C0FC" d="M240 363.3L240 576L356 576L356 363.3L442.5 363.3L460.5 265.5L356 265.5L356 230.9C356 179.2 376.3 159.4 428.7 159.4C445 159.4 458.1 159.8 465.7 160.6L465.7 71.9C451.4 68 416.4 64 396.2 64C289.3 64 240 114.5 240 223.4L240 265.5L174 265.5L174 363.3L240 363.3z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="instructors__social-item">
+                <a href="#" class="instructors__social-link">
+                  <svg class="instructors__social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path fill="#ffffff" d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="instructors__social-item">
+                <a href="#" class="instructors__social-link">
+                  <svg class="instructors__social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path fill="#0170ad" d="M160 96C124.7 96 96 124.7 96 160L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 160C544 124.7 515.3 96 480 96L160 96zM165 266.2L231.5 266.2L231.5 480L165 480L165 266.2zM236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160C219.5 160 236.7 177.2 236.7 198.5zM413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480L413.9 480z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="instructors__social-item">
+                <a href="#" class="instructors__social-link">
+                  <svg class="instructors__social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path fill="#de493d" d="M386.3 292.5C388.1 302.2 389.4 311.9 389.4 324.5C389.4 434.3 315.8 512 205 512C98.9 512 13 426.1 13 320C13 213.9 98.9 128 205 128C256.9 128 300.1 146.9 333.6 178.3L281.5 228.3C267.4 214.7 242.5 198.7 205 198.7C139.5 198.7 86.1 252.9 86.1 320C86.1 387.1 139.5 441.3 205 441.3C281 441.3 309.5 386.6 314 358.5L205 358.5L205 292.5L386.3 292.5L386.3 292.5zM571.7 298.9L571.7 243.2L515.7 243.2L515.7 298.9L460 298.9L460 354.9L515.7 354.9L515.7 410.6L571.7 410.6L571.7 354.9L627.4 354.9L627.4 298.9L571.7 298.9z"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Instructor 2 -->
+        <div class="instructors__card" id="rohit">
+          <div class="instructors__left">
+            <div class="instructors__photo-wrapper">
+              <img src="./assets/course-images/aditya-tandon-profile-pic.jpg" alt="Aditya Tandon" class="instructors__photo">
+            </div>
+          </div>
+          <div class="instructors__right">
+            <h3 class="instructors__name">Aditya Tandon</h3>
+            <p class="instructors__tags">Ex-Ola | Currently @Oxyzo</p>
+            <div class="instructors__desc-container">
+              <div class="instructors__desc-box">
+                <p class="instructors__desc-text">Senior Software Engineer passionate about scalable systems and elegant algorithms. Dedicated mentor committed to teaching, learning, and inspiring future developers.</p>
+              </div>
+            </div>
+            <ul class="instructors__social-icons">
+              <li class="instructors__social-item">
+                <a href="#" class="instructors__social-link">
+                  <svg class="instructors__social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path fill="#74C0FC" d="M240 363.3L240 576L356 576L356 363.3L442.5 363.3L460.5 265.5L356 265.5L356 230.9C356 179.2 376.3 159.4 428.7 159.4C445 159.4 458.1 159.8 465.7 160.6L465.7 71.9C451.4 68 416.4 64 396.2 64C289.3 64 240 114.5 240 223.4L240 265.5L174 265.5L174 363.3L240 363.3z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="instructors__social-item">
+                <a href="#" class="instructors__social-link">
+                  <svg class="instructors__social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path fill="#ffffff" d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="instructors__social-item">
+                <a href="#" class="instructors__social-link">
+                  <svg class="instructors__social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path fill="#0170ad" d="M160 96C124.7 96 96 124.7 96 160L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 160C544 124.7 515.3 96 480 96L160 96zM165 266.2L231.5 266.2L231.5 480L165 480L165 266.2zM236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160C219.5 160 236.7 177.2 236.7 198.5zM413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480L413.9 480z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="instructors__social-item">
+                <a href="#" class="instructors__social-link">
+                  <svg class="instructors__social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path fill="#de493d" d="M386.3 292.5C388.1 302.2 389.4 311.9 389.4 324.5C389.4 434.3 315.8 512 205 512C98.9 512 13 426.1 13 320C13 213.9 98.9 128 205 128C256.9 128 300.1 146.9 333.6 178.3L281.5 228.3C267.4 214.7 242.5 198.7 205 198.7C139.5 198.7 86.1 252.9 86.1 320C86.1 387.1 139.5 441.3 205 441.3C281 441.3 309.5 386.6 314 358.5L205 358.5L205 292.5L386.3 292.5L386.3 292.5zM571.7 298.9L571.7 243.2L515.7 243.2L515.7 298.9L460 298.9L460 354.9L515.7 354.9L515.7 410.6L571.7 410.6L571.7 354.9L627.4 354.9L627.4 298.9L571.7 298.9z"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 7. REVIEWS SECTION ==================== -->
+  <section id="reviews" class="reviews">
+    <div class="reviews__header">
+      <h2 class="reviews__title">
+        Grasp. Create. <span class="reviews__title-highlight">Excel.</span>
+      </h2>
+      <p class="reviews__subtitle">Thousands of coders and innovators share their deep insights, and results.</p>
+    </div>
+
+    <div class="reviews__mountain-wrapper">
+      <img src="./assets/Final_Mountain.png" alt="Mountain" class="reviews__mountain-img">
+    </div>
+
+    <div class="reviews__bento-container">
+      <div class="reviews__bento-item--wide">
+        <div class="reviews__card">
+          <img src="./assets/review-avatar-icons/man-1.png" alt="Rahul Kumar" class="reviews__card-avatar">
+          <div class="reviews__card-info">
+            <h4 class="reviews__card-name">Rahul Kumar</h4>
+            <p class="reviews__card-username">@rahulcodes</p>
+            <p class="reviews__card-text">Absolutely loved the live DSA sessions. Concepts finally clicked!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__bento-item--tall">
+        <div class="reviews__card">
+          <img src="./assets/review-avatar-icons/girl-1.png" alt="Riya Phoghat" class="reviews__card-avatar">
+          <div class="reviews__card-info">
+            <h4 class="reviews__card-name">Riya Phoghat</h4>
+            <p class="reviews__card-username">@riyadev</p>
+            <p class="reviews__card-text">The GenAI course blew my mind! The projects are next-level.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__bento-item--small">
+        <div class="reviews__card">
+          <img src="./assets/review-avatar-icons/boy-1.png" alt="Dilip Gupta" class="reviews__card-avatar">
+          <div class="reviews__card-info">
+            <h4 class="reviews__card-name">Dilip Gupta</h4>
+            <p class="reviews__card-username">@dilip_012</p>
+            <p class="reviews__card-text">Structured, interactive, and motivating. Totally worth it!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__bento-item--medium">
+        <div class="reviews__card">
+          <img src="./assets/review-avatar-icons/man-2.png" alt="Vikram Rao" class="reviews__card-avatar">
+          <div class="reviews__card-info">
+            <h4 class="reviews__card-name">Vikram Rao</h4>
+            <p class="reviews__card-username">@vikram_codes</p>
+            <p class="reviews__card-text">The mentor feedback was gold! My coding confidence skyrocketed.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__bento-item--wide">
+        <div class="reviews__card">
+          <img src="./assets/review-avatar-icons/woman-1.png" alt="Priya Menon" class="reviews__card-avatar">
+          <div class="reviews__card-info">
+            <h4 class="reviews__card-name">Priya Menon</h4>
+            <p class="reviews__card-username">@priyamenon</p>
+            <p class="reviews__card-text">Felt like being part of a coder community that actually cares.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__bento-item--small">
+        <div class="reviews__card">
+          <img src="./assets/review-avatar-icons/boy-2.png" alt="Devansh Misra" class="reviews__card-avatar">
+          <div class="reviews__card-info">
+            <h4 class="reviews__card-name">Devansh Misra</h4>
+            <p class="reviews__card-username">@devansh.io</p>
+            <p class="reviews__card-text">Beautifully designed courses. I actually looked forward to studying!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__bento-item--tall">
+        <div class="reviews__card">
+          <img src="./assets/review-avatar-icons/woman-2.png" alt="Isha Das" class="reviews__card-avatar">
+          <div class="reviews__card-info">
+            <h4 class="reviews__card-name">Isha Das</h4>
+            <p class="reviews__card-username">@isha.ai</p>
+            <p class="reviews__card-text">Super engaging instructors. The sessions were pure flow state!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__bento-item--medium">
+        <div class="reviews__card">
+          <img src="./assets/review-avatar-icons/g1.png" alt="Manav Sisodia" class="reviews__card-avatar">
+          <div class="reviews__card-info">
+            <h4 class="reviews__card-name">Manav Sisodia</h4>
+            <p class="reviews__card-username">@manav.dev</p>
+            <p class="reviews__card-text">The structure and pacing were spot on. Gained clarity fast!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__bento-item--wide">
+        <div class="reviews__card">
+          <img src="./assets/review-avatar-icons/g2.png" alt="Ananya Bose" class="reviews__card-avatar">
+          <div class="reviews__card-info">
+            <h4 class="reviews__card-name">Ananya Bose</h4>
+            <p class="reviews__card-username">@ananyabose</p>
+            <p class="reviews__card-text">Great community. Loved how mentors guided every step!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__bento-item--small">
+        <div class="reviews__card">
+          <img src="./assets/review-avatar-icons/g3.png" alt="Rohit Gupta" class="reviews__card-avatar">
+          <div class="reviews__card-info">
+            <h4 class="reviews__card-name">Rohit Gupta</h4>
+            <p class="reviews__card-username">@rohit.ai</p>
+            <p class="reviews__card-text">Finally a program that feels human. Tech + passion = perfect!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 8. PRICING SECTION ==================== -->
+  <section id="pricing" class="pricing">
+    <h2 class="pricing__header">
+      Our <span class="pricing__header-highlight">Premium Courses</span>
+    </h2>
+    <p class="pricing__subheader">
+      Invest in your career by unlocking all the interactive features you need to succeed
+    </p>
+
+    <div class="pricing__container">
+      <!-- DSA Card -->
+      <div class="pricing-card">
+        <div class="pricing-card__ribbon">50% OFF</div>
+        <h4 class="pricing-card__tier">DSA</h4>
+
+        <div class="pricing-card__price-section">
+          <div class="pricing-card__old-price">
+            <span class="pricing-card__strike">₹4000</span>
+            <span class="pricing-card__discount-text">(Early Bird Discount)</span>
+          </div>
+          <div class="pricing-card__new-price">₹2000</div>
+        </div>
+
+        <div class="pricing-card__validity">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="pricing-card__validity-icon">
+            <path d="M528 320C528 434.9 434.9 528 320 528C205.1 528 112 434.9 112 320C112 205.1 205.1 112 320 112C434.9 112 528 205.1 528 320zM64 320C64 461.4 178.6 576 320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320zM296 184L296 320C296 328 300 335.5 306.7 340L402.7 404C413.7 411.4 428.6 408.4 436 397.3C443.4 386.2 440.4 371.4 429.3 364L344 307.2L344 184C344 170.7 333.3 160 320 160C306.7 160 296 170.7 296 184z"/>
+          </svg>
+          <span>365 Days Validity</span>
+        </div>
+
+        <ul class="pricing-card__features">
+          <li class="pricing-card__feature-item">
+            <span class="pricing-card__tick">✓</span> Interview Questions
+          </li>
+          <li class="pricing-card__feature-item">
+            <span class="pricing-card__tick">✓</span> Live Classes
+          </li>
+          <li class="pricing-card__feature-item">
+            <span class="pricing-card__tick">✓</span> AI Doubt Support
+          </li>
+          <li class="pricing-card__feature-item">
+            <span class="pricing-card__tick">✓</span> Code Review
+          </li>
+        </ul>
+
+        <button class="pricing-card__buy-btn">Buy Now</button>
+      </div>
+
+      <!-- Generative AI Card -->
+      <div class="pricing-card">
+        <div class="pricing-card__ribbon">50% OFF</div>
+        <h4 class="pricing-card__tier">Generative AI</h4>
+
+        <div class="pricing-card__price-section">
+          <div class="pricing-card__old-price">
+            <span class="pricing-card__strike">₹6000</span>
+            <span class="pricing-card__discount-text">(Early Bird Discount)</span>
+          </div>
+          <div class="pricing-card__new-price">₹3000</div>
+        </div>
+
+        <div class="pricing-card__validity">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="pricing-card__validity-icon">
+            <path d="M528 320C528 434.9 434.9 528 320 528C205.1 528 112 434.9 112 320C112 205.1 205.1 112 320 112C434.9 112 528 205.1 528 320zM64 320C64 461.4 178.6 576 320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320zM296 184L296 320C296 328 300 335.5 306.7 340L402.7 404C413.7 411.4 428.6 408.4 436 397.3C443.4 386.2 440.4 371.4 429.3 364L344 307.2L344 184C344 170.7 333.3 160 320 160C306.7 160 296 170.7 296 184z"/>
+          </svg>
+          <span>365 Days Validity</span>
+        </div>
+
+        <ul class="pricing-card__features">
+          <li class="pricing-card__feature-item">
+            <span class="pricing-card__tick">✓</span> Interview Questions
+          </li>
+          <li class="pricing-card__feature-item">
+            <span class="pricing-card__tick">✓</span> Live Classes
+          </li>
+          <li class="pricing-card__feature-item">
+            <span class="pricing-card__tick">✓</span> AI Doubt Support
+          </li>
+          <li class="pricing-card__feature-item">
+            <span class="pricing-card__tick">✓</span> Code Review
+          </li>
+        </ul>
+
+        <button class="pricing-card__buy-btn">Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 9. CONTACT SECTION ==================== -->
+  <section id="contact" class="contact">
+    <div class="contact__container">
+      <!-- Left Side -->
+      <div class="contact__left">
+        <h2 class="contact__title">
+          Get in <span class="contact__title-highlight">Touch</span>
+        </h2>
+        <p class="contact__subtitle">
+          We'd love to hear from you! Drop us a message and we'll get back soon.
+        </p>
+
+        <!-- Paper Plane Animation -->
+        <div class="contact__animation">
+          <iframe
+            src="https://lottie.host/embed/4900c904-91db-47bb-8344-f188a0657166/xW594Z860I.lottie"
+            class="contact__paper-plane"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Right Side -->
+      <div class="contact__right">
+        <form class="contact__form">
+          <input type="text" placeholder="Your Name" required class="contact__input">
+          <input type="email" placeholder="Your Email" required class="contact__input">
+          <textarea rows="5" placeholder="Your Message" class="contact__textarea"></textarea>
+          <button type="submit" class="contact__btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 10. FAQ SECTION ==================== -->
+  <section id="faq" class="faq">
+    <div class="faq__container">
+      <!-- Left Side -->
+      <div class="faq__left">
+        <h2 class="faq__header">
+          Frequently <span class="faq__header-highlight">Asked Questions</span>
+        </h2>
+        <p class="faq__subheader">
+          Your path to clarity and understanding
+        </p>
+
+        <div class="faq__animation">
+          <iframe 
+            src="https://lottie.host/embed/f6546272-afdd-4b31-ac81-848ed2b7d0fb/UkbcTDUzIk.lottie"
+            class="faq__logo"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Right Side -->
+      <div class="faq__right">
+        <div class="faq__wrapper">
+          
+          <input type="checkbox" id="q1" class="faq__input">
+          <label for="q1" class="faq__label">
+            <p class="faq__question">What is the duration of each course?</p>
+            <div class="faq__arrow"></div>
+            <div class="faq__content">
+              <p class="faq__answer">Each course provides over 50+ hours of interactive, structured learning, allowing you to progress at your own pace.</p>
+            </div>
+          </label>
+
+          <input type="checkbox" id="q2" class="faq__input">
+          <label for="q2" class="faq__label">
+            <p class="faq__question">Do I get lifetime access?</p>
+            <div class="faq__arrow"></div>
+            <div class="faq__content">
+              <p class="faq__answer">You get access for 365 days, so you can revisit lessons anytime you want during this period.</p>
+            </div>
+          </label>
+
+          <input type="checkbox" id="q3" class="faq__input">
+          <label for="q3" class="faq__label">
+            <p class="faq__question">Are there live classes or recorded lectures?</p>
+            <div class="faq__arrow"></div>
+            <div class="faq__content">
+              <p class="faq__answer">We offer both — live mentorship sessions and well-organized recorded lectures for complete flexibility.</p>
+            </div>
+          </label>
+
+          <input type="checkbox" id="q4" class="faq__input">
+          <label for="q4" class="faq__label">
+            <p class="faq__question">Will I receive certification?</p>
+            <div class="faq__arrow"></div>
+            <div class="faq__content">
+              <p class="faq__answer">Absolutely! You'll get a verified certificate of completion to showcase your skills.</p>
+            </div>
+          </label>
+
+          <input type="checkbox" id="q5" class="faq__input">
+          <label for="q5" class="faq__label">
+            <p class="faq__question">What is the refund policy?</p>
+            <div class="faq__arrow"></div>
+            <div class="faq__content">
+              <p class="faq__answer">There is no refund once the payment is done.</p>
+            </div>
+          </label>
+
+          <input type="checkbox" id="q6" class="faq__input">
+          <label for="q6" class="faq__label">
+            <p class="faq__question">Can I upgrade my plan later?</p>
+            <div class="faq__arrow"></div>
+            <div class="faq__content">
+              <p class="faq__answer">Yes, you can upgrade at any time without losing your existing progress or data.</p>
+            </div>
+          </label>
+
+          <input type="checkbox" id="q7" class="faq__input">
+          <label for="q7" class="faq__label">
+            <p class="faq__question">Is there community or doubt support?</p>
+            <div class="faq__arrow"></div>
+            <div class="faq__content">
+              <p class="faq__answer">Yes, our student community and mentor team are always available for support and discussion.</p>
+            </div>
+          </label>
+
+          <input type="checkbox" id="q8" class="faq__input">
+          <label for="q8" class="faq__label">
+            <p class="faq__question">How can I contact support?</p>
+            <div class="faq__arrow"></div>
+            <div class="faq__content">
+              <p class="faq__answer">You can reach us anytime at support@strike.com.</p>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 11. FOOTER SECTION ==================== -->
+  <footer id="footer" class="footer">
+    <div class="footer__top-line"></div>
+
+    <div class="footer__content">
+      <!-- STRIKE Section -->
+      <div class="footer__section footer__section--strike">
+        <h2 class="footer__heading">STRIKE</h2>
+        <p class="footer__desc">
+          STRIKE is our upcoming premium paid course platform featuring DSA, Generative AI, and interview-focused programs. Project-based learning with mentor support and placement assistance.
+        </p>
+        
+        <div class="footer__social-logos">
+          <a href="https://www.linkedin.com/company/coderarmy/" class="footer__social-link" target="_blank">
+            <img src="./assets/footer-logos/linkedin.png" alt="LinkedIn" class="footer__social-img">
+          </a>
+          <a href="https://www.youtube.com/@CoderArmy9" class="footer__social-link" target="_blank">
+            <img src="./assets/footer-logos/youtube.png" alt="YouTube" class="footer__social-img">
+          </a>
+          <a href="https://www.instagram.com/coder_army9/" class="footer__social-link" target="_blank">
+            <img src="./assets/footer-logos/instagram.png" alt="Instagram" class="footer__social-img">
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer__section">
+        <h3 class="footer__heading">Quick Links</h3>
+        <ul class="footer__list">
+          <li class="footer__list-item"><a href="#" class="footer__link">Home</a></li>
+          <li class="footer__list-item"><a href="#instructors" class="footer__link">About Us</a></li>
+          <li class="footer__list-item"><a href="#courses" class="footer__link">Courses</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__link">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div class="footer__section">
+        <h3 class="footer__heading">Company</h3>
+        <ul class="footer__list">
+          <li class="footer__list-item"><a href="#" class="footer__link">Terms & Conditions</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__link">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Stay Connected -->
+      <div class="footer__section">
+        <h3 class="footer__heading">Stay Connected</h3>
+        <p class="footer__desc">Don't let your dreams stay dreams. Build your skills with us and turn them into reality.</p>
+      </div>
+    </div>
+
+    <div class="footer__bottom-line"></div>
+    <div class="footer__copyright">
+      Copyright © 2025 by Sambhav Nayak | All Rights Reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
