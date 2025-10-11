@@ -26,23 +26,6 @@ strike-landing-page/
 │   └── footer-logos/       # Social media icons
 └── README.md               # Documentation
 ```
----
-
-## 🎯 Sections Overview
-
-1. **Navbar** - Fixed header with blur effect
-2. **Hero** - Eye-catching intro with animated call-to-action
-3. **Stats** - Key metrics with gradient numbers
-4. **Courses** - Flippable course cards
-5. **Why STRIKE** - Feature highlight grid
-6. **Instructors** - Instructor profiles with auto-carousel
-7. **Reviews** - Student testimonials in bento layout
-8. **Pricing** - Course pricing with ribbon discount badges
-9. **Contact** - Animated contact form
-10. **FAQ** - Accordion-style questions
-11. **Footer** - Links and social media
-
----
 
 ##  Key Features
 
