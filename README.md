@@ -30,7 +30,7 @@ strike-landing-page/
 ##  Key Features
 
 ###  Visual Design
-- **Glassmorphism UI** - Modern frosted glass effects with backdrop blur
+- **Glassmorphism UI** - Modern glassy effects with backdrop blur
 - **Gradient Accents** - Dynamic orange, amber, red, and yellow color palette
 - **Responsive Layout** - Fully optimized for desktop, tablet, and mobile devices
 
