@@ -27,7 +27,7 @@ strike-landing-page/
 └── README.md               # Documentation
 ```
 
-##  Key Features
+##  Project Structure
 
 ###  Visual Design
 - **Glassmorphism UI** - Modern glassy effects with backdrop blur
