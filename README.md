@@ -34,7 +34,7 @@ strike-landing-page/
 - **Gradient Accents** - Dynamic orange, amber, red, and yellow color palette
 - **Responsive Layout** - Fully optimized for desktop, tablet, and mobile devices
 
-###  Advanced Animations
+###  Advanced Detailed Animations
 
 #### Hero Section
 - **Animated Border Beam** - Rotating conic gradient around the "STRIKE is Here" tag
