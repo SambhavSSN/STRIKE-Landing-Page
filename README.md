@@ -1,7 +1,7 @@
 
 # STRIKE - Coder Army CSS Hackathon 2025 
 
-A modern, visually stunning landing page for STRIKE, a premium paid course platform featuring DSA, Generative AI, and interview-focused programs.Built using HTML and CSS, this single-page website delivers an engaging user experience through immersive animations and a sleek, responsive design.
+A modern landing webpage page for STRIKE, a premium paid course platform featuring DSA, Generative AI, and interview-focused programs.Built using HTML and CSS, this single-page website delivers an engaging user experience through immersive animations and a sleek, responsive design.
 
 ![STRIKE Landing Page](screenshots/hero.png)
 
